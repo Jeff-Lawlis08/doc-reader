@@ -1,0 +1,28 @@
+.doc-div {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modal-background {
+  position: relative;
+  background-color: gray;
+  width: 60%;
+  margin: 0 auto;
+
+  .modal {
+    position: fixed;
+    border: 1px solid black;
+    background: white;
+    margin: 0 auto;
+    top: 6rem;
+    text-align: center;
+    border-radius: 20%;
+
+    .confirm {
+      background-color: purple;
+      color: white;
+    }
+  }
+}
